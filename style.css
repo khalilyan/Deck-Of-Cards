@@ -1,0 +1,70 @@
+*{
+    border: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.root{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('./poker-table-background-green-color-background-with-card-suits-poker-table-premium-background_511290-24.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+.App{
+    background-color: rgba(1, 88, 46, 0.866);
+    width: 60%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    border: 1px solid white;
+    gap: 50px;
+    box-shadow: 1px 1px 10px black;
+}
+
+#display{
+    font-size: 80px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    letter-spacing: 7px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btnContainer{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#shuffle{
+    background-color: rgb(7, 208, 7);
+    border: 1px solid rgba(255, 255, 255, 0.686);
+    width: 150px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px black;
+    font-size: large;
+    color: white;
+}
+
+#deal_card{
+    background-color: rgb(7, 63, 220);
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    width: 150px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 2px black;
+    font-size: large;
+    color: white;
+}
